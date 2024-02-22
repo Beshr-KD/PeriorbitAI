@@ -1,0 +1,1 @@
+python run_periorbitAI.py D:\study\project\periorbitAI-main photos
