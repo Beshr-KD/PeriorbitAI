@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload and Display Image</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Image Uploader</h1>
+        <form action="{{url_for('response')}}" method = "post">
+            <input type="file"   id="imageInput" accept="image/*" name="img">
+            <input type="submit" id="uploadButton" value="Upload Image">
+        </form>
+         
+        <div id="imageContainer"></div>
+        <script src="script.js"></script>
+    </body>
+</html>

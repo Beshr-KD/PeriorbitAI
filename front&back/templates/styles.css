@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#imageContainer {
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#uploadedImage {
+    max-width: 100%;
+}
